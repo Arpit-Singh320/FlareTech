@@ -5,10 +5,10 @@ import { useRef, useState, useEffect } from "react";
 
 const SHOWCASE_ITEMS = [
   { id: 1, src: "/showcase/video-1.mp4", type: "video", height: "h-[420px]" },
-  { id: 2, src: "/showcase/video-2.mp4", type: "video", height: "h-[460px]" },
-  { id: 3, src: "/showcase/video-3.mp4", type: "video", height: "h-[420px]" },
   { id: 4, src: "/showcase/image-1.jpg", type: "image", height: "h-[380px]" },
+  { id: 2, src: "/showcase/video-2.mp4", type: "video", height: "h-[460px]" },
   { id: 5, src: "/showcase/image-2.jpg", type: "image", height: "h-[400px]" },
+  { id: 3, src: "/showcase/video-3.mp4", type: "video", height: "h-[420px]" },
   { id: 6, src: "/showcase/video-4.mp4", type: "video", height: "h-[420px]" },
   { id: 7, src: "/showcase/video-5.mp4", type: "video", height: "h-[440px]" },
 ];
